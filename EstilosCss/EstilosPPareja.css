@@ -90,6 +90,38 @@ hgroup{
 
 }
 
+li a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+li a:link {
+    color:hwb(291 3% 67%)
+  }
+  
+li a:visited {
+    color: hwb(241 5% 58% / 0.712);
+  }
+  
+li a:focus {
+    border-bottom: 1px solid;
+    color: hwb(0 1% 99% / 0.185);
+    
+  }
+  
+li a:hover {
+    border-bottom: 1px solid;
+    color: hwb(276 8% 41% / 0.658);
+   
+  }
+  
+li a:active {
+   
+    color:hwb(0 12% 16% / 0.719);
+  }
+
+
 section article:hover{
     box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 }
